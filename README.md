@@ -16,15 +16,22 @@
 ## 安装
 
 1.下载安装[Autoxjs](https://github.com/kkevsekk1/AutoX/)软件。
+
 2.下载这个main.js文件([点击下载之后解压出main.js](https://github.com/a776058959/qidian_AutoLookAD/archive/refs/heads/master.zip))。
+
 3.复制到手机任意目录(能找到就行)。
+
 4.打开Autoxjs，点击右上角加号，点击导入。
+
 5.找到并导入main.js(也可以改个自己看着方便的名字再导入)。
+
 
 ## 使用说明
 
 1.运行main.js，如无自动跳过开屏广告软件，则需要手动点击跳过起点APP开屏广告。
+
 2.等待脚本领取完成。
+
 3.如有报错，请反馈。
 
 ## 更新
