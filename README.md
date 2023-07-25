@@ -34,7 +34,7 @@
 
 ## 示例
 
-[![9KTJ32BGAZ5XBHT7R84.md.png](https://cdnjson.com/images/2023/04/06/9KTJ32BGAZ5XBHT7R84.md.png)](https://cdnjson.com/image/jhksM)
+[![9KTJ32BGAZ5XBHT7R8412757904a77dd085.png](https://img.picgo.net/2023/07/25/9KTJ32BGAZ5XBHT7R8412757904a77dd085.png)](https://www.picgo.net/image/cCEwp)
 
 ## 相关仓库
 
