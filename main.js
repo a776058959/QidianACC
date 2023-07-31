@@ -82,7 +82,7 @@ function lq(){
         cButton.click()
         sleep(500)
     }else{
-        sleep(2000)
+        sleep(3000)
         cButton =text("我知道了").findOnce()
         if(cButton != undefined){
             cButton = cButton.parent();
