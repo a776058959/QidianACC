@@ -30,7 +30,7 @@ function MyClick(str){
         }
     }
     sleep(1000)
-    weButton = text("我知道了").findOnce()
+    let weButton = text("我知道了").findOnce()
     if(weButton != undefined){
         weButton.click()
     }
