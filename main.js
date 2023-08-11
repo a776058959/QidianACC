@@ -24,15 +24,20 @@ function MyClick(str){
             meButton.click();
             break;
         }else{
+            if(str == "我"){
+                sleep(500)
+                id("Close").findOne().click()
+            }
+            let weButton = text("我知道了").findOnce()
+            if(weButton != undefined){
+                id("btnCancel").findOne().click()
+                toastLog("查找到我知道了")
+                continue;
+            }
             toastLog("未找到(" + str + ")按钮,5秒后重试")
             sleep(5000)
             m = 1
         }
-    }
-    sleep(1000)
-    let weButton = text("我知道了").findOnce()
-    if(weButton != undefined){
-        weButton.click()
     }
 }
 
@@ -40,7 +45,7 @@ function Close(){
     var cButton =text("继续观看").findOnce()
     if(cButton != undefined){
         cButton.click()
-        sleep(500)
+        sleep(2000)
     }
 
     // back() 失效 原因未知
@@ -181,9 +186,14 @@ function see2(){
     eeButton = textMatches("看视频").findOnce();
     if(eeButton != undefined){
         toastLog("尝试划动屏幕")
-        const btrue = new Boolean(true);
-        btrue = textMatches("明天再来吧").findOnce().scrollForward()
-        toastLog(btrue)
+        const huadong = textMatches("明天再来吧").findOnce().parent().scrollable()
+        if(huadong == true){
+            const btrue = new Boolean(true);
+            btrue = textMatches("明天再来吧").findOnce().scrollUp()
+            toastLog(btrue)
+        }else{
+            toastLog("划动屏幕失败")
+        }
     }
     
     var eButton = undefined
