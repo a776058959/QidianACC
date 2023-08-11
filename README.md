@@ -17,7 +17,7 @@
 
 1.下载安装[Autoxjs](https://github.com/kkevsekk1/AutoX/)软件。
 
-2.下载这个main.js文件([点击下载之后解压出main.js](https://github.com/a776058959/qidian_AutoLookAD/archive/refs/heads/master.zip))。
+2.下载这个main.js文件([点击下载之后解压出main.js](https://github.com/a776058959/QidianACC/archive/refs/heads/main.zip))。
 
 3.复制到手机任意目录(能找到就行)。
 
