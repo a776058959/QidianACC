@@ -17,11 +17,16 @@ try {
 function MyClick(str){
     var meButton = undefined
     for(let m = 1; m < 3; m++){
+        toastLog("第" + m + "遍寻找：" + str)
         meButton = text(str).findOnce()
         if (meButton != undefined){
             meButton = meButton.parent();
             toastLog("找到了" + str)
-            meButton.click();
+            if(str == "我"){
+                className("android.widget.TextView").text("我").findOne().parent().click();
+            }else{
+                meButton.click();
+            }
             break;
         }else{
             if(str == "我"){
@@ -36,7 +41,6 @@ function MyClick(str){
             }
             toastLog("未找到(" + str + ")按钮,5秒后重试")
             sleep(5000)
-            m = 1
         }
     }
 }
